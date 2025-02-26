@@ -5,10 +5,10 @@ from facebook_business.adobjects.adsinsights import AdsInsights
 
 
 # 🔹 Substitua pelos seus dados
-APP_ID = '629584753153266'  # ID do App no Facebook Developers
-APP_SECRET = '54873acbafd03ce1d8f2a50634940409'  # Secret do App
-ACCESS_TOKEN = 'EAAI8mpZBRVPIBOwfKyK3GHusJ2v9Q7WcJ4lhZBqz80ZAqN4osdlyokbDZBw9vgWCkC9ctnlj1Ot9UpzQcxYq6CEbhiah6BhtU99fnJkKqOihJ2VMyFgw1PVQJ9xRYL4Jt2CItfZCE8E72fdmRBUCeAWSmuqxXUJlrodZAZBzeZByPViHUEN21ThtZCZB8jymeNWjnu'  # Token gerado no Graph API Explorer
-ACCOUNT_ID = 'act_103272870037078'  # Exemplo: act_1234567890
+APP_ID = ''  # ID do App no Facebook Developers
+APP_SECRET = ''  # Secret do App
+ACCESS_TOKEN = ''  # Token gerado no Graph API Explorer
+ACCOUNT_ID = ''  # Exemplo: act_1234567890
 
 # 🔹 Inicializa a API do Facebook Ads
 FacebookAdsApi.init(APP_ID, APP_SECRET, ACCESS_TOKEN)
